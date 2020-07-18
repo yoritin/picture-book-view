@@ -16,7 +16,11 @@ export default {
     return {
       plants: [
         {
-          name: 'Tillandsia ionantha',
+          name: 'Tillandsia ionantha rubra',
+          purchase_date: '2020-02-02',
+        },
+        {
+          name: 'Tillandsia ionantha fuego',
           purchase_date: '2020-02-02',
         },
       ],
