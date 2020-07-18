@@ -11,5 +11,16 @@ export default {
   components: {
     Plant,
   },
+
+  data() {
+    return {
+      plants: [
+        {
+          name: 'Tillandsia ionantha',
+          purchase_date: '2020-02-02',
+        },
+      ],
+    }
+  },
 }
 </script>
