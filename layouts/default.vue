@@ -9,17 +9,17 @@
     >
       <v-list>
         <v-list-item
-          v-for="(item, i) in items"
+          v-for="(page, i) in pages"
           :key="i"
-          :to="item.to"
+          :to="page.to"
           router
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{ page.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
+            <v-list-item-title v-text="page.title" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -57,7 +57,7 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [
+      pages: [
         {
           icon: 'mdi-apps',
           title: 'Top page',
