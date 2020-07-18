@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Plant />
+    <div v-for="plant in plants" :key="plant.id">
+      <Plant />
+    </div>
   </div>
 </template>
 
@@ -16,10 +18,17 @@ export default {
     return {
       plants: [
         {
+          id: 1,
           name: 'Tillandsia ionantha rubra',
           purchase_date: '2020-02-02',
         },
         {
+          id: 2,
+          name: 'Tillandsia ionantha fuego',
+          purchase_date: '2020-02-02',
+        },
+        {
+          id: 3,
           name: 'Tillandsia ionantha fuego',
           purchase_date: '2020-02-02',
         },

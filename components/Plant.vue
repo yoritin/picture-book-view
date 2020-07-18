@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="mb-4">
     <v-card-title>Plant name</v-card-title>
     <v-card-text>Plant info</v-card-text>
   </v-card>
