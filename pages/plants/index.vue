@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <div v-for="plant in plants" :key="plant.id">
-      <Plant />
-    </div>
-  </div>
+  <v-container>
+    <v-row>
+      <v-col v-for="plant in plants" :key="plant.id" md="4">
+        <Plant :plant="plant" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -29,7 +31,7 @@ export default {
         },
         {
           id: 3,
-          name: 'Tillandsia ionantha fuego',
+          name: 'Tillandsia ionantha pp',
           purchase_date: '2020-02-02',
         },
       ],
