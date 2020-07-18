@@ -63,6 +63,11 @@ export default {
           title: 'Top page',
           to: '/',
         },
+        {
+          icon: 'mdi-sprout',
+          title: 'Plant page',
+          to: '/plants',
+        },
       ],
       title: 'picture-book',
     }

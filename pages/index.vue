@@ -1,15 +1,5 @@
 <template>
   <div>
-    <Plant />
+    <h1>Top page</h1>
   </div>
 </template>
-
-<script>
-import Plant from '~/components/Plant.vue'
-
-export default {
-  components: {
-    Plant,
-  },
-}
-</script>
