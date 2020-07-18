@@ -1,16 +1,15 @@
 <template>
   <div>
-    <h1>Top page</h1>
-    <Logo />
+    <Plant />
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Plant from '~/components/Plant.vue'
 
 export default {
   components: {
-    Logo,
+    Plant,
   },
 }
 </script>
