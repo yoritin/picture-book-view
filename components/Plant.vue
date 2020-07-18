@@ -1,18 +1,18 @@
 <template>
   <v-card class="mb-4">
-    <v-card-title>
-      <p>{{ plant.name }}</p>
-      <p>{{ plant.purchase_date }}</p>
-    </v-card-title>
-    <v-card-text>Plant info</v-card-text>
+    <v-card-title>{{ plant.name }}</v-card-title>
+    <v-card-subtitle>{{ plant.purchase_date }}</v-card-subtitle>
+    <v-card-text>{{ plant.content }}</v-card-text>
   </v-card>
 </template>
 
 <script>
 export default {
-  props: ['plant'],
-  created() {
-    console.log(this.plant)
+  props: {
+    plant: {
+      type: Object,
+      required: true,
+    },
   },
 }
 </script>
