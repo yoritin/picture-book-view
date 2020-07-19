@@ -14,7 +14,6 @@ export default {
   },
 
   created() {
-    console.log(this.$route.params.id)
     this.page_id = this.$route.params.id
   },
 }
