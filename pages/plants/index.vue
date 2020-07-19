@@ -44,7 +44,7 @@ export default {
           content: '斑入りが綺麗',
         },
         {
-          id: 3,
+          id: 4,
           name: 'T. ionantha fuego red giant',
           purchase_date: '2020-02-02',
           image:
@@ -52,7 +52,7 @@ export default {
           content: '子株がめっちゃでた',
         },
         {
-          id: 3,
+          id: 5,
           name: 'T. ionantha',
           purchase_date: '2020-02-02',
           image:
@@ -60,7 +60,7 @@ export default {
           content: 'ちら庭で買った',
         },
         {
-          id: 3,
+          id: 6,
           name: 'T. stricta',
           purchase_date: '2020-02-02',
           image:
