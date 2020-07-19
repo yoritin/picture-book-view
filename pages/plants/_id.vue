@@ -1,11 +1,21 @@
 <template>
-  <h1>detail page</h1>
+  <div>
+    <h1>detail page</h1>
+    <p>page_id:{{ page_id }}</p>
+  </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      page_id: [],
+    }
+  },
+
   created() {
     console.log(this.$route.params.id)
+    this.page_id = this.$route.params.id
   },
 }
 </script>
