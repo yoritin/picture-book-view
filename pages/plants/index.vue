@@ -21,7 +21,7 @@ export default {
       plants: [
         {
           id: 1,
-          name: 'Tillandsia ionantha rubra',
+          name: 'T. ionantha Apretado',
           purchase_date: '2020-02-02',
           image:
             'https://pbs.twimg.com/media/EYoAbcqVAAI8Kc1?format=jpg&name=large',
@@ -29,7 +29,7 @@ export default {
         },
         {
           id: 2,
-          name: 'Tillandsia ionantha fuego',
+          name: 'T. ionantha no id',
           purchase_date: '2020-02-02',
           image:
             'https://pbs.twimg.com/media/EcEKhdqUEAAGlUZ?format=jpg&name=large',
@@ -37,35 +37,35 @@ export default {
         },
         {
           id: 3,
-          name: 'Tillandsia ionantha pp',
+          name: 'T. ionantha albo-ma..',
           purchase_date: '2020-02-02',
           image:
             'https://pbs.twimg.com/media/EYeB9EZUcAAy4CG?format=jpg&name=large',
-          content: 'ちら庭で買ったイオナンタ、かわいい',
+          content: '斑入りが綺麗',
         },
         {
           id: 3,
-          name: 'Tillandsia ionantha pp',
+          name: 'T. ionantha fuego red giant',
           purchase_date: '2020-02-02',
           image:
             'https://pbs.twimg.com/media/EYTjyvXXkAAbNoc?format=jpg&name=large',
-          content: 'ちら庭で買ったイオナンタ、かわいい',
+          content: '子株がめっちゃでた',
         },
         {
           id: 3,
-          name: 'Tillandsia ionantha pp',
+          name: 'T. ionantha',
           purchase_date: '2020-02-02',
           image:
             'https://pbs.twimg.com/media/Eb_QjXzUcAElXJV?format=jpg&name=large',
-          content: 'ちら庭で買ったイオナンタ、かわいい',
+          content: 'ちら庭で買った',
         },
         {
           id: 3,
-          name: 'Tillandsia ionantha pp',
+          name: 'T. stricta',
           purchase_date: '2020-02-02',
           image:
             'https://pbs.twimg.com/media/EXXWgyhVAAELf0Z?format=jpg&name=large',
-          content: 'ちら庭で買ったイオナンタ、かわいい',
+          content: 'レインフォレストから輸入した',
         },
       ],
     }
