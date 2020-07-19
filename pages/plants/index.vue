@@ -59,6 +59,14 @@ export default {
             'https://pbs.twimg.com/media/Eb_QjXzUcAElXJV?format=jpg&name=large',
           content: 'ちら庭で買ったイオナンタ、かわいい',
         },
+        {
+          id: 3,
+          name: 'Tillandsia ionantha pp',
+          purchase_date: '2020-02-02',
+          image:
+            'https://pbs.twimg.com/media/EXXWgyhVAAELf0Z?format=jpg&name=large',
+          content: 'ちら庭で買ったイオナンタ、かわいい',
+        },
       ],
     }
   },
